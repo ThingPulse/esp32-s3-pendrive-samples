@@ -1,3 +1,7 @@
+/**
+ * This example shows how to use the FastLED library to control the WS2812B RGB LED.
+ */
+
 #include <Arduino.h>
 #include <FastLED.h>
 

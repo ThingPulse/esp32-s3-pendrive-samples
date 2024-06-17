@@ -1,3 +1,8 @@
+/**
+ * This example shows how to use the FLASH NAND chip together with LittleFS 
+ * library to read/write files from/to the SD card interface.
+ */
+
 #include <Arduino.h>
 #include "FS.h"
 #include <LittleFS.h>

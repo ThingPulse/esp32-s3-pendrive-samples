@@ -1,3 +1,8 @@
+/**
+ * This sample shows how to use the SD_MMC library to read/write files from/to the SD card interface of the 
+ * FLASH NAND chip.
+ */
+
 #include "FS.h"
 #include "SD_MMC.h"
 

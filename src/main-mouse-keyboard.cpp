@@ -1,4 +1,8 @@
 
+/**
+ * This example demonstrates the Mouse and Keyboard library.
+ */
+
 #include <Arduino.h>
 #include "USB.h"
 #include "USBHIDMouse.h"
@@ -26,6 +30,8 @@ void setup() {
   delay(1000);
   Keyboard.release(0xef);
   Keyboard.pressRaw(HID_KEY_VOLUME_UP);
+  delay(1000);
+  Keyboard.pressRaw(HID_KEY_VOLUME_DOWN);
 }
 
 void loop() {

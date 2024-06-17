@@ -1,22 +1,19 @@
+/**
+ * This example demonstrates how to use the touch sensor API to detect touch events.
+ * 
+ */
+
 #include <Arduino.h>
 #include <driver/touch_sensor.h>
 
 int threshold = 180;
 bool touch1detected = false;
-bool touch2detected = false;
-
-
 
 void gotTouch1(){
  touch1detected = true;
 }
 
-void gotTouch2(){
- touch2detected = true;
-}
-
-void setup()
-{
+void setup() {
   Serial.begin(115200);
   Serial.setDebugOutput(true);
 

@@ -1,4 +1,8 @@
 
+/**
+ * This example demonstrates how to use the USB MSC (Mass Storage Class) library to emulate a USB flash drive
+ * and write to the SD card interface of the FLASH NAND chip.
+ */
 #include "USB.h"
 #include "SD.h"
 #include "SPI.h"
